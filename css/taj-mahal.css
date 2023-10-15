@@ -66,33 +66,64 @@ body{
     padding:20px;
     margin: 10px;
    }
-   .food{
+   .cards-container{
     display:flex;
     justify-content:space-evenly;
+    flex-wrap: wrap;
+    height: auto;
    }
    .food-cards{
-    background-color: #262626;
-    border: 2px solid red;
+    background-color: azure;
+    border: 2px solid white;
     border-radius: 15px;
     height: auto;
     width:270px;
    }
    .food-img{
-    height: 250px;
-    width:270px;
+    height: 230px;
+    width:250px;
     border-radius: 15px 15px 0 0;
+    margin:10px 10px;
    }
    .food-name{
-    color:azure;
+    color:#262626;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+    margin-top: 10px;
    }
    .food-discription{
-    color:azure;
+    color:#262626;
     padding:10px;
     margin:8px;
     font-family:initial;
     text-align: justify;
-
    }
+   .place-cards{
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: auto;
+    width:300px;
+    margin:30px;
+}
+.place-card-img{
+    height: 230px;
+    width:280px;
+    border-radius: 15px 15px 0 0;
+    margin:10px 10px;
+}
+.place-name{
+    color:#262626;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.place-info{
+    color:#262626;
+    padding:25px;
+    margin:8px;
+    font-family:initial;
+    text-align: justify;
+}
