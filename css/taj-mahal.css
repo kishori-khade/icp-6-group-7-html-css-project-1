@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+   }
+   .navbar{
+    background-color:whitesmoke;
+    font-size: 40px;
+    padding:10px;        
+   }
+   .main-heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color:whitesmoke;
+    margin-left: 30px;
+   }
+   .tag-line{
+    font-size: 20px;
+    font-weight: 100;
+   }
+   .main-img{
+    border:2px solid white;
+    height:470px;
+    width:670px;
+   }
+   .img-container{
+    
+    display:flex;
+    justify-content: space-evenly;
+
+   }
+   .address{
+    color:azure;
+    font-weight:30px;
+    font-size: 19px;
+    position: relative;
+    bottom:25px;
+    left:45px;
+   }
+   .history-block{
+    background-color:#262626;
+    border:2px solid white;
+    margin:20px 30px;
+    padding:20px;
+    border-radius: 30px;
+   }
+   .headings{
+    color:azure;
+
+   }.discription{
+    color:azure;
+    font-family:sans-serif;
+    padding: 20px;
+   }
+   .points{
+    padding:7px;
+   }
+   .middle-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 30px;
+    padding:20px;
+   }
+   .blocks{
+    background-color: #262626;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding:20px;
+    margin: 10px;
+   }
+   .food{
+    display:flex;
+    justify-content:space-evenly;
+   }
+   .food-cards{
+    background-color: #262626;
+    border: 2px solid red;
+    border-radius: 15px;
+    height: auto;
+    width:270px;
+   }
+   .food-img{
+    height: 250px;
+    width:270px;
+    border-radius: 15px 15px 0 0;
+   }
+   .food-name{
+    color:azure;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+   }
+   .food-discription{
+    color:azure;
+    padding:10px;
+    margin:8px;
+    font-family:initial;
+    text-align: justify;
+
+   }
