@@ -72,3 +72,47 @@ body{
     padding:20px;
     margin: 10px;
    }
+
+   .address{
+    color:azure;
+    font-weight:30px;
+    font-size: 19px;
+    position: relative;
+    bottom:25px;
+    left:45px;
+   }
+
+   
+
+   .food{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+   }
+   .food-cards{
+    background-color: #262626;
+    border: none;
+    border-radius: 15px;
+    height: auto;
+    width:270px;
+    margin-top: 20px;
+   }
+   .food-img{
+    height: 250px;
+    width:270px;
+    border-radius: 15px 15px 0 0;
+   }
+   .food-name{
+    color:azure;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+   }
+   .food-discription{
+    color:azure;
+    padding:10px;
+    margin:8px;
+    font-family:initial;
+    text-align: justify;
+
+   }
