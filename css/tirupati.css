@@ -39,3 +39,21 @@ body{
     top: 30%;
 
    }
+   .history-block{
+    background-color:#262626;
+    border:2px solid white;
+    margin:20px 30px;
+    padding:20px;
+    border-radius: 30px;
+   }
+   .headings{
+    color:azure;
+
+   }.discription{
+    color:azure;
+    font-family:sans-serif;
+    padding: 20px;
+   }
+   .points{
+    padding:7px;
+   }
