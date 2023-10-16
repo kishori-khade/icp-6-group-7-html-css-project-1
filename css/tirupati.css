@@ -49,11 +49,26 @@ body{
    .headings{
     color:azure;
 
-   }.discription{
+   }
+   .discription{
     color:azure;
     font-family:sans-serif;
     padding: 20px;
    }
    .points{
     padding:7px;
+   }
+
+   .middle-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 30px;
+    padding:20px;
+   }
+   .blocks{
+    background-color: #262626;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding:20px;
+    margin: 10px;
    }
