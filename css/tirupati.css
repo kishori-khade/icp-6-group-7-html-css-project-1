@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+   }
+   .navbar{
+    background-color: aliceblue;
+    font-size: 40px;
+    padding:10px;        
+   }
+   .main-heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color:whitesmoke;
+    margin-left: 30px;
+   }
+   .tag-line{
+    font-size: 20px;
+    font-weight: 100;
+   }
+
+   .img-container{
+    
+    display:flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 20px;
+
+   }
+
+   .main-img{
+    border:2px solid rgb(119, 118, 118);
+    height:470px;
+    width:100%;
+    filter: blur(3px);
+    
+    
+   }
+   .img-text-data {
+    position: absolute;
+    top: 30%;
+
+   }
