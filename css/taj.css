@@ -10,7 +10,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
     color:whitesmoke;
-    margin-left: 30px;
+    margin-left: 500px;
    }
    .tag-line{
     font-size: 20px;
@@ -20,6 +20,7 @@ body{
     border:2px solid white;
     height:470px;
     width:670px;
+    border-radius: 20px;
    }
    .img-container{
     
@@ -33,7 +34,7 @@ body{
     font-size: 19px;
     position: relative;
     bottom:25px;
-    left:45px;
+    left:450px;
    }
    .history-block{
     background-color:#262626;
@@ -84,6 +85,7 @@ body{
     width:250px;
     border-radius: 15px 15px 0 0;
     margin:10px 10px;
+    box-shadow: 0 0 5px 3px grey;
    }
    .food-name{
     color:#262626;
@@ -112,6 +114,7 @@ body{
     width:280px;
     border-radius: 15px 15px 0 0;
     margin:10px 10px;
+    box-shadow: 0 0 5px 3px grey;
 }
 .place-name{
     color:#262626;
@@ -127,3 +130,73 @@ body{
     font-family:initial;
     text-align: justify;
 }
+.hotel-card-container{
+    display: flex;
+}
+.hotel-card{
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: auto;
+    width:340px;
+    margin:30px;
+}
+.hotel-img{
+    height: 200px;
+    width:290px;
+    border-radius: 15px 15px 0 0;
+    margin:10px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px 3px grey;
+}
+.hotel-name{
+    color:#262626;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left:25px;
+    margin-top: 10px;
+
+}
+.hotel-add{
+    font-size: 15px;
+    margin-left: 25px;
+    color:rgba(77, 77, 77,0.9)
+}
+.hotel-info{
+    color:#008080;
+}
+.prise{
+    color:#d70909;
+    font-size: 19px; 
+    font-weight: bold;
+    margin-left: 25px;
+}
+.call-btn{
+    border: 2px solid rgb(167, 4, 4);
+    border-radius: 20px;
+    color: #d70909;
+    background-color: azure;
+    padding:10px;
+    position: relative;
+    left:200px;
+    bottom:30px;
+    font-weight: bold;
+    width: 90px;
+}
+.call-btn:hover{
+    background-color: #d70909;
+    color: azure;
+    cursor: pointer;
+
+}
+.map{
+    border: 2px solid rgb(246, 12, 12);
+    position: relative;
+    left:400px;
+   }
+   .Wish{
+    text-align: center;
+    Color:whitesmoke;
+   }
