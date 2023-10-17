@@ -8,20 +8,41 @@
         body{
             background-color:#000000;
             margin: 0;
-            padding-top: 30px;
+            padding-top: 100px;
         }
         .navbar{
             background-color: #202124;
-            opacity: 0.8;
+            opacity: 0.5;
             position: fixed;
-            margin-top: -30px;
-            height: 50px;
+            margin-top: -100px;
+            height: 80px;
             padding: 10px;
             width: 100%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
         }
+        .navbar:hover{
+            opacity: 1;
+            transition: 0.5s;
+        }
+        .navbar-icon{
+            margin:-30px;
+            margin-left: 150px;
+            height: 150px;
+        } 
+        .tit{
+            text-align: center;
+        }
+        .title{
+            font-size: 50px;
+            font-weight: bold;
+            color: #06038D;
+            position: relative;
+            left: 10px;
+            padding-bottom: 15px;
+            margin-top: 8px;
+        }   
         .image-container{
             display: flex;
             flex-wrap: wrap;
@@ -62,13 +83,13 @@
             margin: 10px;
         }
         .text{
-            color: white;
+            color: #929293;
             font-size: large;
         }
         .title-container{
             margin-left: 50px;
         }
-        .title{
+        .loc-title{
             color: white;
             margin-bottom:10px;
             font-size: 60px;
@@ -84,25 +105,36 @@
             flex-direction: column;
             justify-content: space-around;
             padding: 15px;
-        }
-        .info-division{
-            background: #202124;
+            background: #131416;
             margin: 20px;
-            padding: 20px;
+            margin-left: 150px;
+            margin-right: 150px;
             border-radius: 10px;
             border: 3px solid white;
-            opacity: 0.6;
-
+            
         }
     </style>
 </head>
 <body>
     <div class="navbar">
-        //navbar
+        <div>
+            <img src="../img/index/logo.png" class="navbar-icon">
+        </div>
+
+        <div class="tit">
+            <h1 class="title">Indian Paradise</h1> 
+        </div>
+
+        <div>
+            <button>Home</button>
+            <button>Service</button>
+            <button>About</button>
+            <button>Sign in</button>
+        </div>
     </div>
 
     <div class="title-container">
-        <h1 class="title">Ooty</h1><hr/>
+        <h1 class="loc-title">Ooty</h1><hr/>
         <p><h3 class="location">Udhagamandalam (Ooty), Tamil Nadu, popularly referred as the 'Queen of Hill Stations.</h3></p>
     </div>
 
@@ -154,6 +186,26 @@
 
                 <li class="text">Tea and Chocolate lovers, you cannot miss this place. The tea that grows here has its own aromatic flavour. The bakeries around here make “Varkeys” that you can have along with your tea and thereby doubling the taste of your tea.</li></br>
             </ul>
+        </div>
+
+        <div class="info-division">
+            <h1 class="heading">Best time to visit Ooty</h1><hr/>
+            <ul>
+                <li class="text"><b>Ooty in Summer</b></br>
+                    Beat the heat of summer with the pleasant weather of Ooty from March to June; this is the best time to visit Ooty. Go sightseeing at Avalanche Lake, Botanical Garden, and Ooty Lake. The temperature of this place ranges between 20°C-25°C throughout the summer season. Choose a clear night and go star-gazing. Summers are the best time to visit Ooty for camping and star-gazing.</li></br> 
+
+                <li class="text"><b> Ooty in Monsoon</b></br>
+                    If you love rains then Monsoon is the best time to visit Ooty. This paradise receives heavy rainfall from July to September. After the rain, the sky looks totally different, as if bathed in a new light. Nature lovers can embrace the beauty of Dodabetta, Glenmorgan, and Pykara Lake. You can enjoy some peace and calm in these amazing locations.</li></br>
+
+                <li class="text"><b>Ooty in Winters</b></br>
+                    The winter months last from October to February and any month in that period is the best month to visit Ooty for the chilly weather. The overall temperature of the day is cool and perfect for sightseeing. Enjoy a ride in the toy train or visit Mudumalai Wildlife Sanctuary on a bright sunny day. </li></br>
+
+                <li class="text">At night, the temperature can go below 5°C. Don't forget to carry warm clothes with you. Though this may not be the best climate to visit Ooty, in the evening, you can make plans to go out early in the evening and doing some less intense activities. You could take your family out for shopping and hot snacks.</li></br>
+            </ul>
+        </div>
+
+        <div>
+            <img src=""
         </div>
 
     
