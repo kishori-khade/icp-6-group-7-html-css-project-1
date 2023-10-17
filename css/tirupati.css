@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+   }
+   .navbar{
+    background-color: aliceblue;
+    font-size: 40px;
+    padding:10px;        
+   }
+   .main-heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color:whitesmoke;
+    margin-left: 30px;
+   }
+   .tag-line{
+    font-size: 20px;
+    font-weight: 100;
+   }
+
+   .img-container{
+    
+    display:flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 20px;
+
+   }
+
+   .main-img{
+    border:2px solid rgb(119, 118, 118);
+    height:470px;
+    width:100%;
+    filter: blur(3px);
+    
+    
+   }
+   .img-text-data {
+    position: absolute;
+    top: 30%;
+
+   }
+   .history-block{
+    background-color:#262626;
+    border:2px solid white;
+    margin:20px 30px;
+    padding:20px;
+    border-radius: 30px;
+   }
+   .headings{
+    color:azure;
+
+   }
+   .discription{
+    color:azure;
+    font-family:sans-serif;
+    padding: 20px;
+   }
+   .points{
+    padding:7px;
+   }
+
+   .middle-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 30px;
+    padding:20px;
+   }
+   .blocks{
+    background-color: #262626;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding:20px;
+    margin: 10px;
+   }
+
+   .address{
+    color:azure;
+    font-weight:30px;
+    font-size: 19px;
+    position: relative;
+    bottom:25px;
+    left:45px;
+   }
+
+   
+
+   .food{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+   }
+   .food-cards{
+    background-color: #262626;
+    border: none;
+    border-radius: 15px;
+    height: auto;
+    width:270px;
+    margin-top: 20px;
+   }
+   .food-img{
+    height: 250px;
+    width:270px;
+    border-radius: 15px 15px 0 0;
+   }
+   .food-name{
+    color:azure;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+   }
+   .food-discription{
+    color:azure;
+    padding:10px;
+    margin:8px;
+    font-family:initial;
+    text-align: justify;
+
+   }
