@@ -11,7 +11,7 @@
             padding-top: 100px;
         }
         .navbar{
-            background-color: #202124;
+            background-color: #ffffff;
             opacity: 0.5;
             position: fixed;
             margin-top: -100px;
@@ -37,12 +37,32 @@
         .title{
             font-size: 50px;
             font-weight: bold;
-            color: #06038D;
+            color: #daa520;
             position: relative;
             left: 10px;
             padding-bottom: 15px;
             margin-top: 8px;
-        }   
+        }
+        .btn-container{
+            padding: 5px;
+            margin: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .btn{
+            padding:5px 20px;
+            margin: 10px;
+            font-size: 15px;
+            font-weight: 15px;
+            border-radius: 20px;
+            background: #000000;
+            color: #ffffff;
+        } 
+        .btn:hover{
+            transition: 0.5s;
+            background: #daa520;
+            box-shadow: 0 0 2px 1px rgba(0, 0, 0, 2);
+        }  
         .image-container{
             display: flex;
             flex-wrap: wrap;
@@ -110,8 +130,12 @@
             margin-left: 150px;
             margin-right: 150px;
             border-radius: 10px;
-            border: 3px solid white;
-            
+            border: 3px solid white;  
+        }
+        .food-card{
+            background:#929293;
+            height: 200px;
+            width: 200px;
         }
     </style>
 </head>
@@ -125,17 +149,17 @@
             <h1 class="title">Indian Paradise</h1> 
         </div>
 
-        <div>
-            <button>Home</button>
-            <button>Service</button>
-            <button>About</button>
-            <button>Sign in</button>
+        <div class="btn-container">
+            <button class="btn">Home</button>
+            <button class="btn">Service</button>
+            <button class="btn">About</button>
+            <button class="btn">Sign in</button>
         </div>
     </div>
 
     <div class="title-container">
         <h1 class="loc-title">Ooty</h1><hr/>
-        <p><h3 class="location">Udhagamandalam (Ooty), Tamil Nadu, popularly referred as the 'Queen of Hill Stations.</h3></p>
+        <span class="location"><i class="fa-solid fa-location-dot" style="color: #df0707;"></i> Udhagamandalam (Ooty), Tamil Nadu, popularly referred as the 'Queen of Hill Stations.</span>
     </div>
 
     <div class="image-container">
@@ -203,11 +227,12 @@
                 <li class="text">At night, the temperature can go below 5°C. Don't forget to carry warm clothes with you. Though this may not be the best climate to visit Ooty, in the evening, you can make plans to go out early in the evening and doing some less intense activities. You could take your family out for shopping and hot snacks.</li></br>
             </ul>
         </div>
-
-        <div>
-            <img src=""
+    
+        <div class="food-card">
+            <img src="" />
         </div>
 
+        <script src="https://kit.fontawesome.com/90fb78d75b.js" crossorigin="anonymous"></script>
     
 </body>
 </html>
