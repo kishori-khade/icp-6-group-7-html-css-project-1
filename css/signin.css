@@ -5,10 +5,47 @@
     font-family: 'poppins',sans-serif;
   }
   
-  body {
+ 
+  .navbar{
+    background-color: gray;
+    height: 80px;
+    padding: 10px;
+    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-icon{
+    padding-left: 40px;
+    height: 100px;
+}
+.tit{
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #06038D;
+    position: relative;
+    left: 40px;
+    padding-bottom: 15px;
+    margin-top: 8px;
+}
+.menu-icon{
+    height: 40px;
+    margin-left: 20px;
+    
+    
+}
+.navbar-menu{
+    position: relative;
+    top: 30px;
+}
+body {
+ 
+
+ 
+  
     min-height: 100vh;
     background-color: black;
     background-repeat: no-repeat;
@@ -16,17 +53,20 @@
     background-position: center;
     background-size: cover;
   }
-  
   .section {
-      position: relative;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     vertical-align: middle;
       max-width: 500px;
       width: auto;
       background-color:transparent;
       border: 3px solid goldenrod;
       border-radius:70px 0  70px 0;
       backdrop-filter: blur(60px);
-      display: flex;
-      justify-content: center;
+      
+      
       align-items: center;
       padding: 2rem 3rem;
   }
@@ -144,6 +184,8 @@
         height: 50px;
         align-items: center;
       }
+      
+
       @media screen and(max-width:600px) {
           .section{
               position: relative;
