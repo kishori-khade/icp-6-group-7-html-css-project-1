@@ -115,9 +115,6 @@ a{
     flex-direction: row;
     justify-content: space-evenly;
     padding: 30px;
-
-    
-    
     
 }
 .img_hp{
@@ -134,6 +131,7 @@ a{
     box-shadow: 4px 8px 20px 0px gray ;
 }
          
+         
 .btn{
     background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
     margin: 10px;
@@ -148,38 +146,29 @@ a{
     display: block;
 }
 
-.btn:hover {
+.bt:hover {
     background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
     background-position: right center; /* change the direction of the change here */
-    color: #fff;
+    color:#000;
     text-decoration: none;
 }
            
-
-.img_hp2{
-    height: 300px;
-    border-radius: 25px;
-    box-shadow:0 0 5px 3px gray;
-}
+  
 .h1{
     color: white;
     font-size: 44px;
+    text-align: center;
 
 }
-.h1-2{
-    color: white;
-    font-size: 44px;
-}
+
 .h4{
     color: white;
     font-size: 22px;
     padding: 20px;
+    text-align: justify;
 
 }
-.h4-2{
-    color: white;
-    font-size: 22px;
-}
+
 .t-title{
     color: aliceblue;
     text-align: center;
@@ -188,10 +177,8 @@ a{
     height: 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-bottom: 40px;
-    
-
 }
 .op1{
     background-color: #fff;
@@ -225,11 +212,7 @@ a{
     justify-content: space-evenly;
     
 }
-.f-column{
 
-
-
-}
 .footer-img{
     height: 150px;
     position: relative;
@@ -237,19 +220,359 @@ a{
 }
 .input{
     border-radius: 15px;
-    background-color: #414345;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
-.s-column{
-    
-}
-.t-column{
-    
-}
-.fourth-column{
 
-}
 .button{
     border-radius: 10px;
     
 }
+@media screen and (min-width: 500px) and (max-width:768px){
+
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -5px;
+        right: 15px;
+    }
+    .india{
+        height: 1300px;
+    }
+    
+    .parent-super{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .super-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+    .card{
+        height: 230px;
+        width: 220px;
+        margin-bottom: 50px;  
+    }
+    
+    .india-img{
+        height: 160px;
+        width: 200px;
+    }
+    .f_div{
+        margin-left: 5x;
+    }
+    .img_hp{
+        height: 150px;
+        width: 250px;
+    
+    }
+          
+    .btn{
+        margin: 10px;
+        padding: 10px 15px;
+        size: 25px;  
+    }
+    
+    
+    .h1{
+        font-size: 22px;
+    }
+    
+    .h4{
+        font-size: 15px;
+    }
+    .t-title{
+    margin-bottom: 30px;
+    }
+    .op{
+        height: 1600px;
+        flex-direction:column;
+        align-items:center;
+    }
+    
+    .footer{
+        padding: 30px;
+    }
+    .s-column{
+        font-size: 13px;
+        padding-right: 20px;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+    .h2{
+        font-size: 15px;
+    }
+    .footer-img{
+        height: 120px;
+        position: relative;
+        top: 5px;
+    }
+    
+    .social-m{
+        height: 25px;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -5px;
+        right: 15px;
+    }
+    .india{
+        height: 1300px;
+    }
+    
+    .parent-super{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .super-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+    .card{
+        height: 230px;
+        width: 220px;
+        margin-bottom: 50px;  
+    }
+    
+    .india-img{
+        height: 160px;
+        width: 200px;
+    }
+    .f_div{
+        margin-left: 5x;
+    }
+    .img_hp{
+        height: 150px;
+        width: 250px;
+    
+    }
+          
+    .btn{
+        margin: 10px;
+        padding: 10px 15px;
+        size: 25px;  
+    }
+    
+    
+    .h1{
+        font-size: 22px;
+    }
+    
+    .h4{
+        font-size: 15px;
+    }
+    .t-title{
+    margin-bottom: 30px;
+    }
+    .op{
+        height: 1600px;
+        flex-direction:column;
+        align-items:center;
+    }
+    
+    .footer{
+        padding: 30px;
+    }
+    .s-column{
+        font-size: 13px;
+        padding-right: 20px;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+    .h2{
+        font-size: 15px;
+    }
+    .footer-img{
+        height: 120px;
+        position: relative;
+        top: 5px;
+    }
+    
+    .social-m{
+        height: 25px;
+    }
+    
+}
+@media screen and (min-width:992px) and (max-width:1350px){
+
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -5px;
+        right: 15px;
+    }
+    .india{
+        height: 1600px;
+    }
+    
+    .parent-super{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .super-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+    .card{
+        height: 300px;
+        width: 420px;
+        margin-bottom: 50px;  
+    }
+    
+    .india-img{
+        height: 220px;
+        width: 400px;
+    }
+    .f_div{
+        margin-left: 5x;
+        height: 200px;
+    }
+    .img_hp{
+        height: 180px;
+        width: 290px;
+    
+    }
+          
+    .btn{
+        margin: 10px;
+        padding: 10px 15px;
+        size: 25px;  
+    }
+    
+    
+    .h1{
+        font-size: 22px;
+    }
+    
+    .h4{
+        font-size: 15px;
+    }
+    .t-title{
+    margin-bottom: 30px;
+    }
+    .op{
+        height: 1600px;
+        flex-direction:column;
+        align-items:center;
+    }
+    
+    .footer{
+        padding: 30px;
+    }
+    .s-column{
+        font-size: 13px;
+        padding-right: 20px;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+    .h2{
+        font-size: 15px;
+    }
+    .footer-img{
+        height: 120px;
+        position: relative;
+        top: 5px;
+    }
+    
+    .social-m{
+        height: 25px;
+    }
+    
+}
+
+
+    
+
+
+
+
