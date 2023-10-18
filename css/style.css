@@ -146,7 +146,7 @@ a{
     display: block;
 }
 
-.bt:hover {
+.btn:hover {
     background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
     background-position: right center; /* change the direction of the change here */
     color:#000;
