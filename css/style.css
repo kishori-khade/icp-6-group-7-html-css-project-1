@@ -30,7 +30,7 @@ a{
     font-weight: bold;
     color: #06038D;
     position: relative;
-    left: 40px;
+    left: 100px;
     padding-bottom: 15px;
     margin-top: 8px;
 }
@@ -44,6 +44,11 @@ a{
 .menu-icon:hover{
     transform: scale(1.2);
     transition: 0.4s;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 10px;
+
+
     
     
 }
@@ -146,7 +151,7 @@ a{
     display: block;
 }
 
-.bt:hover {
+.btn:hover{
     background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
     background-position: right center; /* change the direction of the change here */
     color:#000;
@@ -206,7 +211,7 @@ a{
 .footer{
     background: #fff;
     height: 300px;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -214,20 +219,25 @@ a{
 }
 
 .footer-img{
-    height: 150px;
+    height: 250px;
     position: relative;
-    top: 25px;
+    bottom: 20px;
+    right: 30px;
 }
 .input{
     border-radius: 15px;
     background-color: #fff;
     color: #000;
 }
+.h2{
+    margin-top: -50px;
+}
 
 .button{
     border-radius: 10px;
     
 }
+
 @media screen and (min-width: 500px) and (max-width:768px){
 
     .navbar{
