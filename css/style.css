@@ -30,7 +30,7 @@ a{
     font-weight: bold;
     color: #06038D;
     position: relative;
-    left: 40px;
+    left: 100px;
     padding-bottom: 15px;
     margin-top: 8px;
 }
@@ -44,6 +44,11 @@ a{
 .menu-icon:hover{
     transform: scale(1.2);
     transition: 0.4s;
+    background-color: gray;
+    border-radius: 50%;
+    padding: 10px;
+
+
     
     
 }
@@ -146,7 +151,7 @@ a{
     display: block;
 }
 
-.btn:hover {
+.btn:hover{
     background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
     background-position: right center; /* change the direction of the change here */
     color:#000;
