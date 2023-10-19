@@ -259,7 +259,7 @@ a{
     }
     
     .title{
-        font-size: 30px;
+        font-size: 20px;
         position: relative;
         left: 1px;
         padding-bottom: 0px;
@@ -267,12 +267,14 @@ a{
     }
     .menu-icon{
         font-size: 15px;
-        margin-left: 10px;
+        margin-left: 5px;
+        padding: 3px;
+        
     }
     
     .navbar-menu{
         position: relative;
-        top: -5px;
+        top: -16px;
         right: 15px;
     }
     .india{
@@ -335,6 +337,8 @@ a{
     
     .footer{
         padding: 30px;
+        justify-content: space-between;
+        
     }
     .s-column{
         font-size: 13px;
@@ -344,21 +348,25 @@ a{
     }
     .h2{
         font-size: 15px;
+        position: relative;
+        margin: 10px 0;
     }
     .footer-img{
-        height: 120px;
+        height: 100px;
         position: relative;
         top: 5px;
     }
     
     .social-m{
-        height: 25px;
+        height: 32px;
     }
     
 }
 
 @media screen and (min-width:768px) and (max-width:992px){
 
+    
+    
     .navbar{
         height: 40px;
         display: flex;
@@ -380,13 +388,15 @@ a{
         margin-top: 2px;
     }
     .menu-icon{
-        font-size: 15px;
         margin-left: 10px;
+        margin-top: 11px;
+        font-size: 15px;
+        padding: 3px 1px;
     }
     
     .navbar-menu{
         position: relative;
-        top: -5px;
+        top: -25px;
         right: 15px;
     }
     .india{
@@ -458,9 +468,10 @@ a{
     }
     .h2{
         font-size: 15px;
+        padding-top: 25px;
     }
     .footer-img{
-        height: 120px;
+        height: 150px;
         position: relative;
         top: 5px;
     }
@@ -472,6 +483,7 @@ a{
 }
 @media screen and (min-width:992px) and (max-width:1350px){
 
+    
     .navbar{
         height: 40px;
         display: flex;
@@ -499,7 +511,7 @@ a{
     
     .navbar-menu{
         position: relative;
-        top: -5px;
+        top: -25px;
         right: 15px;
     }
     .india{
@@ -564,6 +576,8 @@ a{
     .footer{
         padding: 30px;
     }
+    
+    
     .s-column{
         font-size: 13px;
         padding-right: 20px;
@@ -572,11 +586,15 @@ a{
     }
     .h2{
         font-size: 15px;
+        margin: 10px;
+
+        
     }
     .footer-img{
-        height: 120px;
+        height: 150px;
         position: relative;
         top: 5px;
+        right: 17px;
     }
     
     .social-m{
