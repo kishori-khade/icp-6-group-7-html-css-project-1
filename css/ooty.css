@@ -1,0 +1,289 @@
+body{
+    background-color:#000000;
+    margin: 0;
+    padding-top: 100px;
+}
+.navbar{
+    background-color: #ffffff;
+    opacity: 0.4;
+    position: fixed;
+    margin-top: -100px;
+    height: 80px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+.navbar-icon{
+    margin: 20px;
+    margin-left: 150px;
+    margin-top: -15px;
+    height: 150px;
+} 
+.tit{
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #daa520;
+    position: relative;
+    left: 10px;
+    padding-bottom: 15px;
+    margin-top: 8px;
+}
+.btn-container{
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    padding:5px 20px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 15px;
+    border-radius: 20px;
+    background: #000000;
+    color: #ffffff;
+} 
+.btn:hover{
+    transition: 0.5s;
+    background: #daa520;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 2);
+}  
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+.ooty-image{
+    margin: 10px;
+    height: 520px;
+    width: 580px;
+    border-radius: 15px; 
+}    
+.image-group{
+    display: flex;
+    flex-wrap: wrap;
+    height: 280px;
+    width: 820px;
+}
+.small-images{
+    margin: 10px;
+    height: 240px;
+    width: 250px;
+    border-radius: 15px;
+}
+.horizontal-image-container{
+    height: 280px;
+    width: 820px;
+}
+ #horizontal-image{
+    margin: 10px;
+    height: 240px;
+    width: 790px;
+    border-radius: 15px;
+}
+.heading{
+    color: #ffffff;
+    margin: 10px;
+}
+.text{
+    color: #929293;
+    font-size: large;
+}
+.title-container{
+    margin-left: 50px;
+}
+.loc-title{
+    color: white;
+    margin-bottom:10px;
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.location{
+    color:white;
+    font-size: 20px;
+}
+.info-division{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    background: #131416;
+    margin: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 15px;
+    border: 3px solid white;  
+}
+.heading-container{
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+.food-card{
+    background:#929293;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 340px;
+    width: 320px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+.card-image{
+    display: block;
+    margin: 5px auto;
+    border-radius: 5px;
+    height: 168px;
+    width: 300px;
+}
+.card-image:hover{
+    filter:blur(3px);
+    transition: 0.5s;
+}
+.card-title{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
+.food-description{
+    display: block;
+    text-align: center;
+}
+.desti-distance{
+    font-size: 18px;
+}
+.destination-card{
+    background:#929293;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 340px;
+    width: 320px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+.footer{
+    background: #fff;
+    height: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-img{
+    height: 150px;
+    position: relative;
+    top: 25px;
+}
+@media screen and (min-width: 500px) and (max-width:768px){
+        body{
+            padding-top: 200px
+        }
+        .navbar{
+            height: 200px;
+            padding: 10px;
+            margin-top: -200px
+        }
+        .navbar-icon{
+            margin-left: 40px;
+            margin: 0; 
+            padding: 0;
+        }
+        .tit{
+            margin: 0;
+            padding: 10px;
+            margin-left: -15px;
+            margin-top: -20px;
+        }
+        .btn-container{
+            margin: 20px;
+            padding: 5px;
+            display: flex;
+        }
+        .btn{
+            margin: 10px;
+            padding: 5px auto;
+        }
+        .image-container{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .image-group{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .ooty-image{
+            height: 420px;
+            width: 480px;
+        }  
+        .small-images{
+            height: 140px;
+            width: 160px;
+        }
+        .image-group{
+            height: 180px;
+            width: 600px;
+            justify-content: space-around;
+        }
+        #horizontal-image{
+            height: 200px;
+            width: 600px;
+        }
+        .horizontal-image-container{
+            display: inline;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .info-division{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .food-card{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .destination-card{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .footer{
+            padding: 30px;
+        }
+        .s-column{
+            font-size: 13px;
+            padding-right: 20px;
+            padding-top: 35px;
+            padding-left: 20px;
+        }  
+        .footer-img{
+            height: 120px;
+            position: relative;
+            top: 5px;
+        }
+        .social-m{
+            height: 25px;
+        }  
+}  
+@media screen and (min-width:768px) and (max-width:992px){
+
+}  
