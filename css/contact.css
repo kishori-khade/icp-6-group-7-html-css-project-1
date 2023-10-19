@@ -10,7 +10,7 @@
   }
   .navbar{
     background-color: #fff;
-    height: 80px;
+    height: 100px;
     padding: 20px;
     width: 100%;
     display: flex;
@@ -56,10 +56,7 @@
     
   
     
-  }
- 
-
-body {
+  }body {
   
     min-height: 100vh;
     background-color: black;
@@ -81,15 +78,25 @@ body {
       border-radius:70px 0  70px 0;
       backdrop-filter: blur(60px);
       
-      
       align-items: center;
       padding: 2rem 3rem;
   }
+  
+
   
   .h1 {
       font-size: 2rem;
       color:goldenrod;
       text-align: center;
+  }
+  .h4{
+  
+     color:goldenrod;
+     text-align:center;
+  }
+  .h5{
+     color:goldenrod;
+     text-align: center;
   }
   
   .inputbox {
@@ -195,9 +202,11 @@ body {
       .register-p-a:hover {
           text-decoration: underline;
       }
-      .social-icon{
-        height: 50px;
-        align-items: center;
+      .img{
+          height:150px;
+          weight:150px;
+          display: block;
+          text-align: center;
       }
       @media screen and (min-width: 500px) and (max-width:768px){
 
